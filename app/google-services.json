@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925567609824",
+    "project_id": "medicalbookingappointment",
+    "storage_bucket": "medicalbookingappointment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925567609824:android:a8044ba3383922f27b5985",
+        "android_client_info": {
+          "package_name": "com.example.orvosi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925567609824-0pptshmgv0co1hq7r5kk1cmlqboulo3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orvosi",
+            "certificate_hash": "7eed8e830239cb5a343706ff551e02b49a421873"
+          }
+        },
+        {
+          "client_id": "925567609824-k29ht44gqr9skkqh8csfmc1ka3p53jnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTLxH308WZqn908BihK-R9dKsu7UsZZx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925567609824-k29ht44gqr9skkqh8csfmc1ka3p53jnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
