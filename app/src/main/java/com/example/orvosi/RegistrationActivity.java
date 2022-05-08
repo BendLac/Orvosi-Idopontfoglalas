@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class RegistrationActivity extends AppCompatActivity {
     private static final String LOG_TAG = RegistrationActivity.class.getName();
     private static final String PREF_KEY = MainActivity.class.getPackage().toString();
-    //private static final int SECRET_KEY = 1;
+    private static final int SECRET_KEY = 1;
 
     EditText usernameRegister;
     EditText userEmailRegister;
@@ -104,6 +104,7 @@ public class RegistrationActivity extends AppCompatActivity {
     private void startBooking(/* registered user data */) {
 
         Intent intent = new Intent(this, BookingAppointmentActivity.class);
+        intent.putExtra("SECRET_KEY", SECRET_KEY);
         startActivity(intent);
     }
 

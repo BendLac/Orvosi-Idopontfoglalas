@@ -13,8 +13,52 @@
     <string name="address">Lakhely</string>
     <string name="loginGuest">Bejelentekezés vendégként</string>
     <string name="loginGoogle">Bejelentkezés google fiókkal</string>
-    <string name="default_web_client_id">925567609824-k29ht44gqr9skkqh8csfmc1ka3p53jnl.apps.googleusercontent.com</string>
+<!--    <string name="default_web_client_id">925567609824-k29ht44gqr9skkqh8csfmc1ka3p53jnl.apps.googleusercontent.com</string>-->
     <string name="disease_placeholder">Betegség</string>
     <string name="doctorName_placeholder">Orvos neve</string>
     <string name="bookAppointment">Időpontfoglalás</string>
+
+    <string-array name="disease_item_names">
+        <item>Pszichológus</item>
+        <item>Pszichiáter</item>
+        <item>Állatorvos</item>
+        <item>Belgyógyász</item>
+        <item>Gyermekorvos</item>
+        <item>Neorológus</item>
+        <item>Kardiológus</item>
+        <item>Fogorvos</item>
+    </string-array>
+
+    <string-array name="doctor_item_names">
+        <item>Dr. Flóra Gréta</item>
+        <item>Dr. Kovács János</item>
+        <item>Dr. Farkas Piroska</item>
+        <item>Dr. János Béla</item>
+        <item>Dr. Hanna Adél</item>
+        <item>Dr. Levente Máté</item>
+        <item>Dr. Dominik Bence</item>
+        <item>Dr. Balázs Áron</item>
+    </string-array>
+
+    <string-array name="consulting_hours_item">
+        <item>Hétfő _ Péntek 8:00 _ 16:00</item>
+        <item>Hétfő, Szerda, Csütörtök 10:00 _ 18:00</item>
+        <item>Péntek 12:00 _ 20:00</item>
+        <item>Kedd _ Csütörtök 10:00 _ 14:00</item>
+        <item>Szerda _ Péntek 11:00 _ 15:00</item>
+        <item>Kedd _ Csütörtök 9:00 _ 12:00</item>
+        <item>Hétfő _ Péntek 8:00 _ 14:00</item>
+        <item>Hétfő _ Szombat 8:00 _ 12:00</item>
+    </string-array>
+
+    <array name="doctors_rates">
+        <item>4</item>
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>2</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
 </resources>

@@ -38,18 +38,19 @@
 <!--        android:textColor="@color/red"-->
 
         <RatingBar
-            android:id="@+id/ratingBar"
+            android:id="@+id/rating"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/consultingHours"
-            android:layout_marginStart="200dp"
+            android:layout_marginStart="210dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:isIndicator="true" />
 
         <Button
-            android:id="@+id/add_to_cart"
+            android:id="@+id/bookAppointment"
             android:textSize="18sp"
             android:bottomRightRadius="10dp"
             android:bottomLeftRadius="10dp"
@@ -57,7 +58,7 @@
             android:topRightRadius="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/ratingBar"
+            android:layout_below="@+id/rating"
             android:text="@string/bookAppointment"
             android:layout_centerHorizontal="true"/>
 
