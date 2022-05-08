@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         preferences = getSharedPreferences(PREF_KEY, MODE_PRIVATE);
         regAuth = FirebaseAuth.getInstance();
 
-        GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build();
+        GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.web_client_id)).requestEmail().build();
         googleSignIn = GoogleSignIn.getClient(this, googleSignInOptions);
 
         Log.i(LOG_TAG,"onCreate");

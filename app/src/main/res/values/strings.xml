@@ -13,7 +13,7 @@
     <string name="address">Lakhely</string>
     <string name="loginGuest">Bejelentekezés vendégként</string>
     <string name="loginGoogle">Bejelentkezés google fiókkal</string>
-<!--    <string name="default_web_client_id">925567609824-k29ht44gqr9skkqh8csfmc1ka3p53jnl.apps.googleusercontent.com</string>-->
+    <string name="web_client_id">925567609824-k29ht44gqr9skkqh8csfmc1ka3p53jnl.apps.googleusercontent.com</string>
     <string name="disease_placeholder">Betegség</string>
     <string name="doctorName_placeholder">Orvos neve</string>
     <string name="bookAppointment">Időpontfoglalás</string>
